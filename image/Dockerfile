@@ -20,4 +20,4 @@ RUN /container/tool/install-service
 ADD environment /container/environment/98-default
 
 # Set backup data in a data volume
-VOLUME ["/data/backup"]
+# VOLUME ["/data/backup"]
