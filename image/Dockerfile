@@ -1,4 +1,4 @@
-FROM osixia/openldap:1.2.2
+FROM shoepping/openldap:1.2.2
 
 # Install cron from baseimage and remove .cfss and slapd services inherited from openldap image
 # remove also previous default environment files, they are not needed.
